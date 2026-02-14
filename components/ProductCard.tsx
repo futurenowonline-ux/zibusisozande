@@ -24,7 +24,7 @@ export default function ProductCard({ title, imageSrc, category }: ProductCardPr
                 <span className="text-xs font-semibold text-primary uppercase tracking-wider">{category}</span>
                 <h3 className="text-lg font-bold text-dark mt-1 mb-3">{title}</h3>
                 <Link
-                    href={`https://wa.me/27712345678?text=${message}`}
+                    href={`https://wa.me/27645195375?text=${message}`}
                     target="_blank"
                     className="block w-full text-center bg-light text-dark font-medium py-2 rounded hover:bg-secondary hover:text-dark transition"
                 >

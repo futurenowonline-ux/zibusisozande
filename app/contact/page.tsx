@@ -19,12 +19,12 @@ export default function Contact() {
         e.preventDefault();
         const text = `Hi Zibusisozande, my name is ${formData.name}. ${formData.subject ? `Subject: ${formData.subject}. ` : ''}Message: ${formData.message}`;
         const encodedText = encodeURIComponent(text);
-        window.open(`https://wa.me/27712345678?text=${encodedText}`, '_blank');
+        window.open(`https://wa.me/27645195375?text=${encodedText}`, '_blank');
     };
 
     const handleEmailSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        const mailtoLink = `mailto:info@zibusisozande.co.za?subject=${encodeURIComponent(formData.subject || 'Website Inquiry')}&body=${encodeURIComponent(`Name: ${formData.name}\nPhone: ${formData.phone}\n\n${formData.message}`)}`;
+        const mailtoLink = `mailto:zobaphihlangu@gmail.com?subject=${encodeURIComponent(formData.subject || 'Website Inquiry')}&body=${encodeURIComponent(`Name: ${formData.name}\nPhone: ${formData.phone}\n\n${formData.message}`)}`;
         window.location.href = mailtoLink;
     };
 
@@ -54,10 +54,10 @@ export default function Contact() {
                                         📍
                                     </div>
                                     <div>
-                                        <h3 className="font-bold text-dark mb-1">Our Presence</h3>
+                                        <h3 className="font-bold text-dark mb-1">Our Location</h3>
                                         <p className="text-gray-600 text-sm leading-relaxed">
-                                            Durban, KwaZulu-Natal<br />
-                                            Serving Public & Private Sectors Provincial-wide
+                                            27 Malcolm Road, Manor Gardens,<br />
+                                            Westrigde, Durban, 4091
                                         </p>
                                     </div>
                                 </div>
@@ -69,7 +69,7 @@ export default function Contact() {
                                     <div>
                                         <h3 className="font-bold text-dark mb-1">Call Us</h3>
                                         <p className="text-gray-600 text-sm hover:text-primary transition font-medium">
-                                            <a href="tel:+27712345678">071 234 5678</a>
+                                            <a href="tel:+27645195375">064 519 5375</a>
                                         </p>
                                     </div>
                                 </div>
@@ -81,7 +81,7 @@ export default function Contact() {
                                     <div>
                                         <h3 className="font-bold text-dark mb-1">Email Us</h3>
                                         <p className="text-gray-600 text-sm hover:text-primary transition font-medium">
-                                            <a href="mailto:info@zibusisozande.co.za">info@zibusisozande.co.za</a>
+                                            <a href="mailto:zobaphihlangu@gmail.com">zobaphihlangu@gmail.com</a>
                                         </p>
                                     </div>
                                 </div>

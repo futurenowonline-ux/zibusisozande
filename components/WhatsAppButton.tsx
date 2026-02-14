@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export default function WhatsAppButton() {
-    const phoneNumber = "27712345678"; // Replace with actual number
+    const phoneNumber = "27645195375"; // Updated to client's latest number
     const message = encodeURIComponent("Hello Zibusisozande, I would like to enquire about your products.");
 
     return (

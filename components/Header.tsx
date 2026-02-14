@@ -14,8 +14,8 @@ export default function Header() {
             <div className="bg-primary text-white py-1 text-xs md:text-sm">
                 <div className="container mx-auto px-4 flex justify-between items-center">
                     <div className="flex gap-4">
-                        <span>📞 071 234 5678</span>
-                        <span className="hidden md:inline">✉️ support@zibusisozande.co.za</span>
+                        <a href="tel:+27645195375" className="hover:text-secondary">📞 064 519 5375</a>
+                        <span className="hidden md:inline">✉️ zobaphihlangu@gmail.com</span>
                     </div>
                     <div className="flex gap-2">
                         <a href="#" className="hover:text-secondary">Facebook</a>
@@ -27,9 +27,9 @@ export default function Header() {
             {/* Main Navigation */}
             <div className="container mx-auto px-4 py-3 flex justify-between items-center">
                 {/* Logo Placeholder */}
-                <Link href="/" className="text-2xl font-bold text-dark flex items-center gap-2">
-                    <div className="w-8 h-8 bg-secondary rounded-full flex items-center justify-center text-primary">Z</div>
-                    Zibusisozande
+                <Link href="/" className="flex items-center gap-3">
+                    <img src="/images/logo.png" alt="Zibusisozande Logo" className="h-12 w-auto" />
+                    <span className="text-2xl font-bold text-dark hidden sm:block">Zibusisozande</span>
                 </Link>
 
                 {/* Desktop Menu */}

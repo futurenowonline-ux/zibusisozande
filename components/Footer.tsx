@@ -34,15 +34,15 @@ export default function Footer() {
                     <ul className="space-y-3 text-sm opacity-80">
                         <li className="flex items-start gap-2">
                             <span>📍</span>
-                            <span>Durban / KZN Province Focus<br />Serving Public & Private Sectors</span>
+                            <span>27 Malcolm Road, Manor Gardens,<br />Westrigde 4091</span>
                         </li>
                         <li className="flex items-center gap-2">
                             <span>📞</span>
-                            <span>071 234 5678</span>
+                            <a href="tel:+27645195375" className="hover:text-white transition">064 519 5375</a>
                         </li>
                         <li className="flex items-center gap-2">
                             <span>✉️</span>
-                            <span>info@zibusisozande.co.za</span>
+                            <a href="mailto:zobaphihlangu@gmail.com" className="hover:text-white transition">zobaphihlangu@gmail.com</a>
                         </li>
                     </ul>
                 </div>
