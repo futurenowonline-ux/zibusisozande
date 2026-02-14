@@ -28,7 +28,7 @@ export default function Header() {
             <div className="container mx-auto px-4 py-3 flex justify-between items-center">
                 {/* Logo Placeholder */}
                 <Link href="/" className="flex items-center gap-3">
-                    <img src="/images/logo.png" alt="Zibusisozande Logo" className="h-12 w-auto" />
+                    <img src="/images/logo_clean.png" alt="Zibusisozande Logo" className="h-12 w-auto" />
                     <span className="text-2xl font-bold text-dark hidden sm:block">Zibusisozande</span>
                 </Link>
 
