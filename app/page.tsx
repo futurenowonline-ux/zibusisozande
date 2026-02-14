@@ -1,17 +1,17 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import BrandCarousel from '@/components/BrandCarousel';
 
 export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-primary text-white py-20 lg:py-32 overflow-hidden">
+      <section className="relative bg-primary text-white pt-20 lg:pt-32 pb-0 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
-          {/* Background pattern or image would go here. Using a gradient for now */}
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900 to-black"></div>
         </div>
 
-        <div className="container mx-auto px-4 relative z-10 text-center md:text-left">
+        <div className="container mx-auto px-4 relative z-10 text-center md:text-left mb-16">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
               Supplying Safety & <br />
@@ -29,6 +29,11 @@ export default function Home() {
               </Link>
             </div>
           </div>
+        </div>
+
+        {/* Brand Animation */}
+        <div className="relative z-10">
+          <BrandCarousel />
         </div>
       </section>
 
