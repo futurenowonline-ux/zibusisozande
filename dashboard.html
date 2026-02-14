@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zibusisozande - Local Dev Dashboard</title>
+    <style>
+        body { font-family: system-ui, sans-serif; padding: 2rem; background: #f3f4f6; }
+        .card { background: white; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 1rem; }
+        h1 { margin-top: 0; color: #111827; }
+        a { color: #2563eb; text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+        .status { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: #059669; }
+        .status::before { content: ""; width: 0.5rem; height: 0.5rem; background: currentColor; border-radius: 50%; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Zibusisozande Project Dashboard</h1>
+        <div class="status">Development Environment Active</div>
+    </div>
+    
+    <div class="grid">
+        <div class="card">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="http://localhost:3000" target="_blank">Local Preview (http://localhost:3000)</a></li>
+                <li><a href="https://vercel.com" target="_blank">Vercel Dashboard</a></li>
+                <li><a href="branding.json" target="_blank">Branding Config</a></li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2>Tasks</h2>
+            <ul>
+                <li>Run `npm run dev` to start server</li>
+                <li>Check terminal for errors</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

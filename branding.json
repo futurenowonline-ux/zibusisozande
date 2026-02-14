@@ -1,0 +1,12 @@
+{
+  "name": "Zibusisozande",
+  "colors": {
+    "primary": "#000000",
+    "secondary": "#ffffff",
+    "accent": "#ff0000"
+  },
+  "typography": {
+    "heading": "Inter",
+    "body": "Inter"
+  }
+}
