@@ -54,10 +54,10 @@ export default function Contact() {
                                         📍
                                     </div>
                                     <div>
-                                        <h3 className="font-bold text-dark mb-1">Visit Us</h3>
+                                        <h3 className="font-bold text-dark mb-1">Our Presence</h3>
                                         <p className="text-gray-600 text-sm leading-relaxed">
-                                            123 Business Park, Safety Street<br />
-                                            Richards Bay, KwaZulu-Natal, 3900
+                                            Durban, KwaZulu-Natal<br />
+                                            Serving Public & Private Sectors Provincial-wide
                                         </p>
                                     </div>
                                 </div>

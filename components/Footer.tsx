@@ -10,9 +10,9 @@ export default function Footer() {
                 {/* Brand & Mission */}
                 <div>
                     <h3 className="text-xl font-bold text-white mb-4">Zibusisozande</h3>
+                    <p className="text-xs opacity-70 mb-2">REG NO: 2017/218544/07 | VAT REG: 4360309746</p>
                     <p className="text-sm opacity-80 leading-relaxed">
-                        Your trusted partner for premium PPE, Safety Wear, and Corporate Uniforms.
-                        Ensuring safety and style for the modern workforce.
+                        Professional supplier of protective clothing, safety footwear, cleaning detergents, and workplace safety solutions across KwaZulu-Natal.
                     </p>
                 </div>
 
@@ -34,7 +34,7 @@ export default function Footer() {
                     <ul className="space-y-3 text-sm opacity-80">
                         <li className="flex items-start gap-2">
                             <span>📍</span>
-                            <span>123 Business Park, Safety Street,<br />Richards Bay, KZN</span>
+                            <span>Durban / KZN Province Focus<br />Serving Public & Private Sectors</span>
                         </li>
                         <li className="flex items-center gap-2">
                             <span>📞</span>

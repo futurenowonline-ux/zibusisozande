@@ -14,12 +14,11 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10 text-center md:text-left">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
-              Equipping Your Workforce <br />
-              <span className="text-secondary">With Safety & Style.</span>
+              Supplying Safety & <br />
+              <span className="text-secondary">Workplace Solutions.</span>
             </h1>
             <p className="text-lg md:text-xl mb-8 text-gray-200 max-w-2xl">
-              Zibusisozande is your premier B2B partner for high-quality Personal Protective Equipment (PPE) and corporate uniforms.
-              Reliable supply. Compliant standards.
+              Zibusisozande is a professional B2B supplier of Protective Clothing, Safety Footwear, Workplace Safety Solutions, and Industrial Cleaning Materials across KwaZulu-Natal.
             </p>
             <div className="flex flex-col md:flex-row gap-4">
               <Link href="/products" className="bg-secondary text-dark font-bold px-8 py-4 rounded hover:bg-white transition text-center">
@@ -67,49 +66,60 @@ export default function Home() {
             <p className="text-gray-600 max-w-2xl mx-auto">We supply a comprehensive range of safety wear and uniforms tailored to your industry needs.</p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Category 1: Safety Footwear */}
-            <div className="group relative rounded-xl overflow-hidden shadow-lg h-80">
+            <div className="group relative rounded-xl overflow-hidden shadow-lg h-72">
               <div className="absolute inset-0 bg-gray-800">
-                {/* Image Placeholder */}
                 <div className="w-full h-full bg-gray-300 flex items-center justify-center text-gray-500">
                   Image: Safety Boots
                 </div>
               </div>
               <div className="absolute inset-0 bg-black/50 group-hover:bg-black/40 transition"></div>
-              <div className="absolute bottom-0 left-0 p-8 text-white">
-                <h3 className="text-2xl font-bold mb-2">Safety Footwear</h3>
-                <Link href="/products" className="text-secondary font-semibold hover:underline">Browse Boots &rarr;</Link>
+              <div className="absolute bottom-0 left-0 p-6 text-white">
+                <h3 className="text-xl font-bold mb-1">Safety Footwear</h3>
+                <Link href="/products" className="text-secondary text-sm font-semibold hover:underline">Explore Brands &rarr;</Link>
               </div>
             </div>
 
-            {/* Category 2: Protective Clothing */}
-            <div className="group relative rounded-xl overflow-hidden shadow-lg h-80">
+            {/* Category 2: PPE & Workwear */}
+            <div className="group relative rounded-xl overflow-hidden shadow-lg h-72">
               <div className="absolute inset-0 bg-gray-800">
-                {/* Image Placeholder */}
                 <div className="w-full h-full bg-gray-300 flex items-center justify-center text-gray-500">
                   Image: Overalls
                 </div>
               </div>
               <div className="absolute inset-0 bg-black/50 group-hover:bg-black/40 transition"></div>
-              <div className="absolute bottom-0 left-0 p-8 text-white">
-                <h3 className="text-2xl font-bold mb-2">PPE & Workwear</h3>
-                <Link href="/products" className="text-secondary font-semibold hover:underline">Browse Overalls &rarr;</Link>
+              <div className="absolute bottom-0 left-0 p-6 text-white">
+                <h3 className="text-xl font-bold mb-1">PPE & Workwear</h3>
+                <Link href="/products" className="text-secondary text-sm font-semibold hover:underline">View Catalog &rarr;</Link>
               </div>
             </div>
 
-            {/* Category 3: Corporate Uniforms */}
-            <div className="group relative rounded-xl overflow-hidden shadow-lg h-80">
+            {/* Category 3: Cleaning & Hygiene */}
+            <div className="group relative rounded-xl overflow-hidden shadow-lg h-72">
               <div className="absolute inset-0 bg-gray-800">
-                {/* Image Placeholder */}
-                <div className="w-full h-full bg-gray-300 flex items-center justify-center text-gray-500">
-                  Image: Uniforms
+                <div className="w-full h-full bg-blue-900/30 flex items-center justify-center text-white">
+                  Industrial Cleaning
                 </div>
               </div>
               <div className="absolute inset-0 bg-black/50 group-hover:bg-black/40 transition"></div>
-              <div className="absolute bottom-0 left-0 p-8 text-white">
-                <h3 className="text-2xl font-bold mb-2">Corporate Uniforms</h3>
-                <Link href="/products" className="text-secondary font-semibold hover:underline">Browse Uniforms &rarr;</Link>
+              <div className="absolute bottom-0 left-0 p-6 text-white">
+                <h3 className="text-xl font-bold mb-1">Cleaning & Hygiene</h3>
+                <Link href="/services" className="text-secondary text-sm font-semibold hover:underline">View Services &rarr;</Link>
+              </div>
+            </div>
+
+            {/* Category 4: Welding Material */}
+            <div className="group relative rounded-xl overflow-hidden shadow-lg h-72">
+              <div className="absolute inset-0 bg-gray-800">
+                <div className="w-full h-full bg-orange-900/30 flex items-center justify-center text-white">
+                  Welding Equipment
+                </div>
+              </div>
+              <div className="absolute inset-0 bg-black/50 group-hover:bg-black/40 transition"></div>
+              <div className="absolute bottom-0 left-0 p-6 text-white">
+                <h3 className="text-xl font-bold mb-1">Welding Material</h3>
+                <Link href="/products" className="text-secondary text-sm font-semibold hover:underline">Browse Supplies &rarr;</Link>
               </div>
             </div>
           </div>
