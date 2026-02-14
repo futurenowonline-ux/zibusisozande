@@ -20,7 +20,7 @@ export default function Home() {
             <p className="text-lg md:text-xl mb-8 text-gray-200 max-w-2xl">
               Zibusisozande is a professional B2B supplier of Protective Clothing, Safety Footwear, Workplace Safety Solutions, and Industrial Cleaning Materials across KwaZulu-Natal.
             </p>
-            <div className="flex flex-col md:flex-row gap-4 mb-16">
+            <div className="flex flex-col md:flex-row gap-4 mb-20">
               <Link href="/products" className="bg-secondary text-dark font-bold px-8 py-4 rounded hover:bg-white transition text-center">
                 View Catalog
               </Link>
@@ -29,11 +29,11 @@ export default function Home() {
               </Link>
             </div>
           </div>
+        </div>
 
-          {/* Brand Animation */}
-          <div className="max-w-5xl mt-6">
-            <BrandCarousel />
-          </div>
+        {/* Brand Animation - Spanning Full Page */}
+        <div className="relative z-10">
+          <BrandCarousel />
         </div>
       </section>
 

@@ -10,7 +10,7 @@ const brands = [
 
 export default function BrandCarousel() {
     return (
-        <div className="w-full overflow-hidden bg-white/10 backdrop-blur-sm py-8 border-y border-white/20">
+        <div className="w-full overflow-hidden bg-white/10 backdrop-blur-sm py-6 border-y border-white/20">
             <div className="flex whitespace-nowrap animate-marquee">
                 {[...brands, ...brands].map((brand, index) => (
                     <div key={index} className="inline-block mx-12 transition transform hover:scale-110 h-10 md:h-12 w-24 md:w-32 relative">
