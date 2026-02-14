@@ -12,14 +12,10 @@ export default function Header() {
         <header className="bg-white shadow-md sticky top-0 z-50">
             {/* Top Bar */}
             <div className="bg-primary text-white py-1 text-xs md:text-sm">
-                <div className="container mx-auto px-4 flex justify-between items-center">
+                <div className="container mx-auto px-4 flex justify-center md:justify-start items-center">
                     <div className="flex gap-4">
                         <a href="tel:+27645195375" className="hover:text-secondary">📞 064 519 5375</a>
                         <span className="hidden md:inline">✉️ zobaphihlangu@gmail.com</span>
-                    </div>
-                    <div className="flex gap-2">
-                        <a href="#" className="hover:text-secondary">Facebook</a>
-                        <a href="#" className="hover:text-secondary">LinkedIn</a>
                     </div>
                 </div>
             </div>
