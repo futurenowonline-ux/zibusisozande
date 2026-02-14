@@ -21,8 +21,8 @@ export default function Products() {
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {/* We will map real products here later. For now, static placeholders */}
                     <ProductCard title="Safety Boot X1" category="Footwear" imageSrc="/images/products/terrapod/TERRAPOD CHELSEA BOOT.webp" />
-                    <ProductCard title="Reflective Vest 2-Tone" category="PPE" imageSrc="/images/products/dustcoatsandreflectivewearhnx/refelctive jacket 2 tone orange navy.jpg" />
-                    <ProductCard title="Conti Suit Royal Blue" category="Workwear" imageSrc="/images/products/contiandboilersuits/royal blue conti suit.jpg" />
+                    <ProductCard title="Reflective Vest 2-Tone" category="PPE" imageSrc="/images/products/dustcoatsandreflectivewearhnx/V014-O2_MESH BIB ORANGE.webp" />
+                    <ProductCard title="Conti Suit Royal Blue" category="Workwear" imageSrc="/images/products/contiandboilersuits/D59-Conti-Suit1_700x.webp" />
                     <ProductCard title="Welding Helmet" category="PPE" imageSrc="/images/products/weldingmasks/DRAEGER-FULL-FACE-MASK.jpg" />
                 </div>
             </div>
